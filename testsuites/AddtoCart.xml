@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="Suite">
+	
+	<listeners>
+		  
+		  <listener class-name = "testComponents.Listeners"/>
+		  
+		  </listeners>  
+	
+  <test thread-count="5" name="Add to Cart E2E">
+    <classes>
+      <class name="SeleniumWebAutomation.BuildingAutomation.AddtocartE2E"/>
+    </classes>
+  </test>
+  
+  
+    <test thread-count="5" name="Signup Journey">
+    <classes>
+      <class name="SeleniumWebAutomation.BuildingAutomation.SignupJourney"/>
+    </classes>
+  </test> 
+
+</suite> <!-- Suite -->

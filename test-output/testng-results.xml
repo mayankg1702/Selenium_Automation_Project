@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-05T21:26:42 IST" name="Suite" finished-at="2024-08-05T21:27:18 IST" duration-ms="36406">
+    <groups>
+    </groups>
+    <test started-at="2024-08-05T21:26:42 IST" name="Signup Journey" finished-at="2024-08-05T21:26:48 IST" duration-ms="6486">
+      <class name="SeleniumWebAutomation.BuildingAutomation.SignupJourney">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumWebAutomation.BuildingAutomation.SignupJourney@475c9c31]" started-at="2024-08-05T21:26:42 IST" name="launchApplication" finished-at="2024-08-05T21:26:47 IST" duration-ms="4767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="signupflow()[pri:0, instance:SeleniumWebAutomation.BuildingAutomation.SignupJourney@475c9c31]" started-at="2024-08-05T21:26:47 IST" name="signupflow" finished-at="2024-08-05T21:26:48 IST" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupflow -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:SeleniumWebAutomation.BuildingAutomation.SignupJourney@475c9c31]" started-at="2024-08-05T21:26:48 IST" name="closedriver" finished-at="2024-08-05T21:26:48 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- SeleniumWebAutomation.BuildingAutomation.SignupJourney -->
+    </test> <!-- Signup Journey -->
+    <test started-at="2024-08-05T21:26:42 IST" name="Add to Cart E2E" finished-at="2024-08-05T21:27:18 IST" duration-ms="36406">
+      <class name="SeleniumWebAutomation.BuildingAutomation.AddtocartE2E">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumWebAutomation.BuildingAutomation.AddtocartE2E@4d0d9fe7]" started-at="2024-08-05T21:26:42 IST" name="launchApplication" finished-at="2024-08-05T21:26:47 IST" duration-ms="4800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addtocartJourney(java.util.HashMap)[pri:0, instance:SeleniumWebAutomation.BuildingAutomation.AddtocartE2E@4d0d9fe7]" started-at="2024-08-05T21:26:47 IST" name="addtocartJourney" data-provider="getData" finished-at="2024-08-05T21:27:01 IST" duration-ms="14431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=dsMayank1*, product=ZARA COAT 3, emailID=ram4488@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocartJourney -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:SeleniumWebAutomation.BuildingAutomation.AddtocartE2E@4d0d9fe7]" started-at="2024-08-05T21:27:01 IST" name="closedriver" finished-at="2024-08-05T21:27:02 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumWebAutomation.BuildingAutomation.AddtocartE2E@4d0d9fe7]" started-at="2024-08-05T21:27:02 IST" name="launchApplication" finished-at="2024-08-05T21:27:04 IST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addtocartJourney(java.util.HashMap)[pri:0, instance:SeleniumWebAutomation.BuildingAutomation.AddtocartE2E@4d0d9fe7]" started-at="2024-08-05T21:27:04 IST" name="addtocartJourney" data-provider="getData" finished-at="2024-08-05T21:27:18 IST" duration-ms="14226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=dsMayank1*, product=ADIDAS ORIGINAL, emailID=makgupta.cool@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocartJourney -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:SeleniumWebAutomation.BuildingAutomation.AddtocartE2E@4d0d9fe7]" started-at="2024-08-05T21:27:18 IST" name="closedriver" finished-at="2024-08-05T21:27:18 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- SeleniumWebAutomation.BuildingAutomation.AddtocartE2E -->
+    </test> <!-- Add to Cart E2E -->
+  </suite> <!-- Suite -->
+</testng-results>
