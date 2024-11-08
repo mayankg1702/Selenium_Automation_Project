@@ -21,6 +21,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObjects.E2ERegistrationPage;
 import pageObjects.LoginLandingPage;
 
 public class basetest {
@@ -33,7 +34,7 @@ public class basetest {
 		
 		Properties prop = new Properties();
 		
-		FileInputStream fis = new FileInputStream("/Users/mayankgupta/eclipse-workspace/BuildingAutomation/src/main/java/resources/GlobalData.properties");
+		FileInputStream fis = new FileInputStream("/Users/mayankgupta/Documents/Selenium_Advance/Selenium_Automation_Project/src/main/java/resources/GlobalData.properties");
 				
 				
 		prop.load(fis);
@@ -97,20 +98,24 @@ else if (Browsername.equalsIgnoreCase("edge")) {
 		
 		driver = intializeDrivers();
 		
-	LoginLandingPage LLP = new LoginLandingPage(driver);
+		E2ERegistrationPage regispage = new E2ERegistrationPage(driver);
 		
-		LLP.landingscreen();
+		regispage.landingpage();
+		
+	//LoginLandingPage LLP = new LoginLandingPage(driver);
+		
+		//LLP.landingscreen();
 		//LLP.landingscreenchildwindows();
 		return driver;
 	}
 	
-	@AfterMethod(alwaysRun = true)
-	public void closedriver() {
+	//@AfterMethod(alwaysRun = true)
+	/*public void closedriver() {
 		
 		driver.manage().deleteAllCookies();
 		driver.close();
 		
-	}
+	}*/
 }
 
 
